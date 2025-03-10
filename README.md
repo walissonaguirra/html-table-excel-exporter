@@ -14,7 +14,7 @@ npm install html-table-excel-exporter
 
 ### CDN
 ```html
-<script src="https://cdn.jsdelivr.net/npm/html-table-excel-exporter@1.0.0/dist/table-excel-exporter.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html-table-excel-exporter@1.0.0/dist/html-table-excel-exporter.min.js"></script>
 ```
 
 ## Uso
@@ -82,7 +82,7 @@ exporter.setLoadingContent('Gerando Excel...');
   
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const exporter = exportTableToExcel();
+      const exporter = htmlTableExcelExporter.htmlExportTableToExcel();
       exporter.setTable(document.getElementById('minhaTabela'));
       exporter.setFileName('contatos');
       exporter.setBtnAction(document.getElementById('btnExportar'));
