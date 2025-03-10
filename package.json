@@ -1,0 +1,36 @@
+{
+  "name": "html-table-excel-exporter",
+  "version": "1.0.0",
+  "description": "Biblioteca JavaScript para exportar tabelas HTML para arquivos Excel (.xlsx)",
+  "main": "dist/table-excel-exporter.js",
+  "unpkg": "dist/table-excel-exporter.min.js",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "excel",
+    "export",
+    "table",
+    "xlsx",
+    "html-to-excel"
+  ],
+  "author": "Walisson Aguirra",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walissonaguirra/html-table-excel-exporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/walissonaguirra/html-table-excel-exporter/issues"
+  },
+  "homepage": "https://github.com/walissonaguirra/html-table-excel-exporter#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.9.0"
+  }
+}
